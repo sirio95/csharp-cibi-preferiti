@@ -16,8 +16,8 @@ Console.WriteLine($"Array cibi preferiti a numero pari ({favouriteFoodEven.Lengt
 
 for(var i = 0; i< favouriteFoodEven.Length; i++)
 {
-    var index = Array.IndexOf(favouriteFoodEven, favouriteFoodEven[i]);
-    Console.WriteLine($"posizione: {index} {favouriteFoodEven[i]}"); 
+    //var index = Array.IndexOf(favouriteFoodEven, favouriteFoodEven[i]);
+    Console.WriteLine($"posizione: {i} {favouriteFoodEven[i]}"); 
 }
 
 Console.WriteLine($"Cibo maggiormente preferito: {favouriteFoodEven[0]}");
@@ -32,8 +32,8 @@ Console.WriteLine($"Array cibi preferiti a numero dispari ({favouriteFoodOdd.Len
 
 for (var i = 0; i < favouriteFoodOdd.Length; i++)
 {
-    var index = Array.IndexOf(favouriteFoodOdd, favouriteFoodOdd[i]);
-    Console.WriteLine($"posizione: {index} {favouriteFoodOdd[i]}");
+    //var index = Array.IndexOf(favouriteFoodOdd, favouriteFoodOdd[i]);
+    Console.WriteLine($"posizione: {i} {favouriteFoodOdd[i]}");
 }
 
 Console.WriteLine($"Cibo maggiormente preferito: {favouriteFoodOdd[0]}");
